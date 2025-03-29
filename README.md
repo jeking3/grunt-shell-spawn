@@ -13,8 +13,8 @@ This plugin lets you:
  
 ### Requirements
 
-- node.js 4.x or later
-- grunt 0.4 or later
+- node.js 16.x or later
+- grunt 1.6 or later
 
 ### Install
 
@@ -108,9 +108,10 @@ Please note that processes that are not killed will continue running even after 
 
 ## Release History
 
+ * 2025-03-29   v0.5.0   Updated dependencies (grunt 1.6+, node 16+)
  * 2019-05-26   v0.4.1   Updated dependencies
  * 2019-01-29   v0.4.0   Added CI on Travis, AppVeyor; updated node.js engine dependency to >=4
- * 2019-01-26   v0.3.12   Removed dependency on exec-sync to resolve security advisory
+ * 2019-01-26   v0.3.12  Removed dependency on exec-sync to resolve security advisory
  * 2015-01-07   v0.3.1   Fix the :kill task on UNIX and Windows
  * 2013-04-06   v0.1.3   Last version with support for grunt 0.3.x
 
